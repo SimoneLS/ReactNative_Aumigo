@@ -35,7 +35,7 @@ const estilo = StyleSheet.create({
 
     containerBotoes1:{
         flexDirection:'row',
-        marginBottom:10,
+        marginBottom:5,
         marginTop:10,
         justifyContent: 'center',
     },

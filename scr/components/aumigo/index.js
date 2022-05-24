@@ -1,6 +1,5 @@
 import React from "react";
 import { View, TouchableOpacity, StyleSheet, Text, Image} from "react-native";
-
 export default function Aumigo({ titulo, espaço, imagem, idade, raça, temperamento, tamanho, castrado, vacinado }) {
     return(
         <TouchableOpacity style={estilo.containerAumigo}>
@@ -29,9 +28,9 @@ const estilo = StyleSheet.create({
         margin: 10,
         alignItems: "center",
         justifyContent: "center",
-        width: 320,
-        height: 550,
-        marginBottom: 50,
+        width: 300,
+        height: 520,
+        marginBottom: 80,
         borderRadius: 20
     },
     titulo: {
@@ -47,7 +46,7 @@ const estilo = StyleSheet.create({
     },
     images: {
         width: "70%",
-        height: "50%",
+        height: "40%",
         borderRadius: '10px',
     },
 });

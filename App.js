@@ -7,6 +7,9 @@ import Pets from "./scr/components/pets";
 import SeusPets from "./dados/Pets";
 import Aumigo from "./scr/components/aumigo";
 import Adote from "./dados/Aumigo";
+import Dados from "./scr/components/dados";
+import Noticia from "./dados/Dados";
+import Footer from "./scr/components/footer";
 
 export default function App() {
   return (
@@ -70,6 +73,25 @@ export default function App() {
           />
         )}
       />
+      <Text style={{color:'grey',
+        marginLeft:15,
+        fontSize:15,
+        fontWeight:'bold'}}
+        >Novidades! </Text>
+        <FlatList
+        horizontal={false}
+        data = {Noticia}
+        keyExtractor= {(item) => item.id}
+        renderItem = { ({item}) => (
+          <Dados
+            titulo = {item.nome}
+            imagem = {item.imagem}
+            legenda = {item.legenda}
+
+          />
+        )}
+      />
+      <Footer> </Footer>
 
 
     </View>

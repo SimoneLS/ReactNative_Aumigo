@@ -22,7 +22,7 @@ const estilo = StyleSheet.create({
         backgroundColor:'#FFFFFF',
         borderRadius:2,
         marginTop:5,
-        marginBottom:25,
+        marginBottom:5,
         width:'99,9%',
         padding:10,
         margin:5,
