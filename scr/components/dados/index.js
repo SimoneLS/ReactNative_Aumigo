@@ -23,7 +23,7 @@ const estilo = StyleSheet.create({
         alignItems: "center",
         justifyContent: "space-between",
         width: 350,
-        height: 300,
+        height: 210,
         marginBottom: 10,
         borderRadius: 10,
     },
@@ -39,7 +39,7 @@ const estilo = StyleSheet.create({
     },
     images: {
         width: "100%",
-        height: 180,
+        height: 120,
         borderRadius: 10,
     },
 });
